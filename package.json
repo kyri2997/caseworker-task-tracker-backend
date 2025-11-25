@@ -1,17 +1,18 @@
 {
-  "name": "caseworker-task-tracker",
+  "name": "caseworker-task-tracker-backend",
   "version": "1.0.0",
   "description": "api to create and manage tasks",
-  "main": "index.js",
+  "main": "server.js",
   "type": "module",
   "scripts": {
     "start": "node server.js",
     "dev": "nodemon server.js"
   },
-  "author": "kyri",
+  "author": "Kyri",
   "license": "ISC",
   "dependencies": {
     "@prisma/client": "^6.19.0",
+    "cors": "^2.8.5",
     "dotenv": "^17.2.3",
     "express": "^5.1.0",
     "googleapis": "^166.0.0"
